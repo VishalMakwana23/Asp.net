@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Employee.master.cs" Inherits="Employee" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Employee Management</title>
+    <link href="styles/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+ <h2 align="center" style="font-family: system-ui;">Employee Management System</h2>
+        
+         <div class="wrapper">
+
+            <div class="menu">
+                <ul>
+                    <li class="navigation_first_item"><a href="department.aspx">Department</a></li>
+                    <li><a href="designation.aspx">Designation</a></li>
+                    <li><a href="emp.aspx">Employees</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+             <div class="content">
+               <asp:ContentPlaceHolder id="ContentBody" runat="server">
+
+               </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <h2>Copyright@Vishal.com</h2>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

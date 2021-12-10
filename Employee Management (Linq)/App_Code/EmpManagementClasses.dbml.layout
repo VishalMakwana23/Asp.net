@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EmpManagementClasses">
+  <DataContextMoniker Name="/EmpManagementClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0137e63d-6c0c-4d0d-b67e-68eaeca58d62" absoluteBounds="0.625, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/EmpManagementClassesDataContext/Department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="129a6ec3-4466-4907-a209-07aa38153491" absoluteBounds="0.64, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0486a543-78d8-40b9-a53e-8a6e503d379d" absoluteBounds="2.75, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/EmpManagementClassesDataContext/Designation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="906e1e62-33bb-4efb-a211-f563e3b6f92b" absoluteBounds="2.765, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ec5d21e-d697-4e0e-a117-63598ad79b45" absoluteBounds="5.25, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/EmpManagementClassesDataContext/Emp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24e086d7-3b43-4b4a-b457-955122184c71" absoluteBounds="5.265, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
